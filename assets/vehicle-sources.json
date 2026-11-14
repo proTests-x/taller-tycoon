@@ -1,0 +1,74 @@
+{
+  "checkedOn": "2026-11-12",
+  "platform": "Roblox Creator Store",
+  "selection": "Official Roblox vehicle models, available through Get Model and public asset delivery at the time checked.",
+  "officialAnnouncement": "https://devforum.roblox.com/t/new-endorsed-models-in-toolbox/1068480",
+  "availabilityNote": "IsPublicDomain is the name of a Roblox API field. It records the observed availability flag and is not a separate legal license declaration.",
+  "intendedUse": "Stationary customer cars in Taller de medianoche. Keep visual geometry and remove the original vehicle scripts before packaging.",
+  "vehicles": [
+    {
+      "assetId": 6418239833,
+      "name": "Sedan",
+      "creator": {
+        "id": 1,
+        "name": "Roblox",
+        "hasVerifiedBadge": true
+      },
+      "creatorStoreUrl": "https://create.roblox.com/store/asset/6418239833/Sedan",
+      "metadataUrl": "https://economy.roblox.com/v2/assets/6418239833/details",
+      "assetDeliveryUrl": "https://assetdelivery.roblox.com/v1/asset?id=6418239833",
+      "isPublicDomain": true,
+      "downloadVerified": true,
+      "originalFormat": "rbxm",
+      "originalBytes": 683241
+    },
+    {
+      "assetId": 6433323089,
+      "name": "Sports Car",
+      "creator": {
+        "id": 1,
+        "name": "Roblox",
+        "hasVerifiedBadge": true
+      },
+      "creatorStoreUrl": "https://create.roblox.com/store/asset/6433323089/Sports-Car",
+      "metadataUrl": "https://economy.roblox.com/v2/assets/6433323089/details",
+      "assetDeliveryUrl": "https://assetdelivery.roblox.com/v1/asset?id=6433323089",
+      "isPublicDomain": true,
+      "downloadVerified": true,
+      "originalFormat": "rbxm",
+      "originalBytes": 661003
+    },
+    {
+      "assetId": 6418225759,
+      "name": "Pickup Truck",
+      "creator": {
+        "id": 1,
+        "name": "Roblox",
+        "hasVerifiedBadge": true
+      },
+      "creatorStoreUrl": "https://create.roblox.com/store/asset/6418225759/Pickup-Truck",
+      "metadataUrl": "https://economy.roblox.com/v2/assets/6418225759/details",
+      "assetDeliveryUrl": "https://assetdelivery.roblox.com/v1/asset?id=6418225759",
+      "isPublicDomain": true,
+      "downloadVerified": true,
+      "originalFormat": "rbxm",
+      "originalBytes": 425610
+    },
+    {
+      "assetId": 6433330180,
+      "name": "Supercar",
+      "creator": {
+        "id": 1,
+        "name": "Roblox",
+        "hasVerifiedBadge": true
+      },
+      "creatorStoreUrl": "https://create.roblox.com/store/asset/6433330180/Supercar",
+      "metadataUrl": "https://economy.roblox.com/v2/assets/6433330180/details",
+      "assetDeliveryUrl": "https://assetdelivery.roblox.com/v1/asset?id=6433330180",
+      "isPublicDomain": true,
+      "downloadVerified": true,
+      "originalFormat": "rbxm",
+      "originalBytes": 395583
+    }
+  ]
+}

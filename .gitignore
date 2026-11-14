@@ -1,0 +1,9 @@
+.tools/
+__pycache__/
+*.py[cod]
+*.rbxm
+*.rbxmx
+*.rbxl
+*.rbxlx
+.env
+*.log

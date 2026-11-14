@@ -1,0 +1,51 @@
+{
+  "name": "Taller Tycoon",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$properties": { "StreamingEnabled": false },
+      "MidnightGarage": { "$path": "assets/Workshop.rbxmx" }
+    },
+    "ReplicatedStorage": {
+      "MidnightGarage": {
+        "Config": { "$path": "src/shared/Config.luau" },
+        "Economy": { "$path": "src/shared/Economy.luau" },
+        "CarTemplates": {
+          "$className": "Folder",
+          "Sedan": { "$path": "assets/vehicles/Sedan.rbxmx" },
+          "SportsCar": { "$path": "assets/vehicles/SportsCar.rbxmx" },
+          "Pickup": { "$path": "assets/vehicles/Pickup.rbxmx" },
+          "Supercar": { "$path": "assets/vehicles/Supercar.rbxmx" }
+        },
+        "Remotes": {
+          "$className": "Folder",
+          "State": { "$className": "RemoteEvent" },
+          "Notify": { "$className": "RemoteEvent" },
+          "Action": { "$className": "RemoteEvent" }
+        }
+      }
+    },
+    "ServerStorage": {
+      "VehicleTemplates": {
+        "$className": "Folder",
+        "Sedan": { "$path": "assets/vehicles/Sedan.rbxmx" },
+        "SportsCar": { "$path": "assets/vehicles/SportsCar.rbxmx" },
+        "Pickup": { "$path": "assets/vehicles/Pickup.rbxmx" },
+        "Supercar": { "$path": "assets/vehicles/Supercar.rbxmx" }
+      }
+    },
+    "ServerScriptService": {
+      "MidnightGarage": {
+        "TycoonWorld": { "$path": "src/server/TycoonWorld.luau" },
+        "PlayerData": { "$path": "src/server/PlayerData.luau" },
+        "Main": { "$path": "src/server/Main.server.luau" }
+      }
+    },
+    "StarterPlayer": {
+      "$properties": { "CameraMaxZoomDistance": 65, "CameraMinZoomDistance": 6, "CharacterWalkSpeed": 18 },
+      "StarterPlayerScripts": {
+        "MidnightGarageClient": { "$path": "src/client/Main.client.luau" }
+      }
+    }
+  }
+}
